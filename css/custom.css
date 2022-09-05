@@ -10758,3 +10758,12 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.profile-img {
+  width: 50px;
+  height: 50px;
+}
+
+.post-img {
+  height: 250px;
+  object-fit: cover;
+}
