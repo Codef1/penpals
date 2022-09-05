@@ -47,7 +47,31 @@
         </div>
       </div>
     </nav>
-    <h1>Hello World!</h1>
+    <div class="container d-flex justify-content-center">
+      <form action="" class="col col-lg-6 m-3 border rounded p-4">
+        <div class="mb-3">
+          <label for="post-desc" class="form-label"
+            >What is in your mind?</label
+          >
+          <textarea class="form-control" id="post-desc" rows="3"></textarea>
+        </div>
+        <div class="mb-3">
+          <label for="formFileMultiple" class="form-label"
+            >Add some photos</label
+          >
+          <input
+            class="form-control form-control-sm"
+            type="file"
+            id="formFileMultiple"
+            multiple
+          />
+        </div>
+        <div class="d-flex justify-content-around">
+          <button class="btn btn-success col-5" type="submit">Post</button>
+          <button class="btn btn-danger col-5" type="reset">Cancel</button>
+        </div>
+      </form>
+    </div>
     <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
