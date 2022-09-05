@@ -1,0 +1,29 @@
+{
+  "name": "penpals",
+  "version": "1.0.0",
+  "description": "A social media application",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass sass:css --watch --no-source-map",
+    "serve": "live-server",
+    "start": "npm run sass & npm run serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Codef1/penpals.git"
+  },
+  "author": "Farid Yusuf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Codef1/penpals/issues"
+  },
+  "homepage": "https://github.com/Codef1/penpals#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.0"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "sass": "^1.54.8"
+  }
+}
